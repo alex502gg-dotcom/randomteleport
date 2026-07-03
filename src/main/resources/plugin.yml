@@ -1,0 +1,30 @@
+name: RTPPlugin
+version: 1.0.11
+main: ru.rtpplugin.RTPPlugin
+api-version: '1.21'
+author: Codex
+description: Custom random teleport plugin with editable GUI.
+commands:
+  rtp:
+    description: Opens RTP menu or runs RTP commands.
+    usage: /rtp [low|high|near|help|reload]
+    aliases: [randomtp]
+permissions:
+  rtp.use:
+    description: Allows /rtp menu.
+    default: false
+  rtp.low:
+    description: Allows /rtp low.
+    default: false
+  rtp.high:
+    description: Allows /rtp high.
+    default: false
+  rtp.near:
+    description: Allows /rtp near.
+    default: false
+  rtp.help:
+    description: Allows /rtp help.
+    default: false
+  rtp.reload:
+    description: Allows /rtp reload.
+    default: op
