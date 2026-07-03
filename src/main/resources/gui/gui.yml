@@ -1,0 +1,30 @@
+menu:
+  title: '&6Выбор RTP'
+  size: 9
+
+items:
+  low:
+    slot: 2
+    material: GRASS_BLOCK
+    enchanted: false
+    name: '&aБлизкая телепортация'
+    lore:
+      - '&7Телепортирует на &e400-500 &7блоков.'
+      - '&8Нажми, чтобы начать.'
+  high:
+    slot: 4
+    material: ENDER_PEARL
+    enchanted: true
+    name: '&bДальняя телепортация'
+    lore:
+      - '&7Телепортирует на &e1000-5000 &7блоков.'
+      - '&8Нажми, чтобы начать.'
+  near:
+    slot: 6
+    material: PLAYER_HEAD
+    enchanted: false
+    name: '&dРядом с игроком'
+    lore:
+      - '&7Телепортирует рядом со случайным игроком.'
+      - '&7Радиус поиска: &e10000 &7блоков.'
+      - '&8Нажми, чтобы начать.'
