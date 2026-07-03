@@ -1,0 +1,37 @@
+teleport:
+  world: world
+  attempts: 80
+  cooldown-seconds: 10
+  warmup-seconds: 5
+  search-rounds: 8
+  different-from-last-distance: 64
+  low:
+    min-radius: 400
+    max-radius: 500
+  high:
+    min-radius: 1000
+    max-radius: 5000
+  near:
+    radius: 10000
+    min-distance-from-target: 16
+
+messages:
+  prefix: '&6[RTP]&r '
+  no-permission: '&cУ вас недостаточно прав для этой команды.'
+  only-player: '&cЭта команда доступна только игроку.'
+  reloaded: '&aПлагин перезагружен.'
+  cooldown: '&cПодожди ещё &e%seconds% сек.&c перед следующей телепортацией.'
+  warmup: '&eТелепортация через &6%seconds% &eсекунд. Не двигайся и не получай урон.'
+  cancelled-move: '&cТелепортация отменена, ты сдвинулся.'
+  cancelled-damage: '&cТелепортация отменена, ты получил урон.'
+  teleported: '&aТы телепортирован на координаты &e%x% &a/&e %y% &a/&e %z%&a.'
+  no-targets: '&cНет подходящих игроков для телепортации рядом.'
+  already-searching: '&cТелепортация уже ищется, подожди немного.'
+  search-failed: '&cНе удалось найти новую точку телепортации. Попробуй еще раз.'
+  help:
+    - '&6/rtp &7- открыть меню телепортов'
+    - '&6/rtp low &7- телепорт на 400-500 блоков'
+    - '&6/rtp high &7- телепорт на 1000-5000 блоков'
+    - '&6/rtp near &7- телепорт рядом со случайным игроком в радиусе 10000 блоков'
+    - '&6/rtp help &7- помощь'
+    - '&6/rtp reload &7- перезагрузка плагина'
